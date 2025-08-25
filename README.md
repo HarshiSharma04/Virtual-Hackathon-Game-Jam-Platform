@@ -31,7 +31,6 @@ It is designed to bring hackathon experiences online, providing collaboration, c
 | Backend | **Node.js + Express.js** | REST API for handling authentication, project submissions, voting, and event management. |
 | Database | **MongoDB** | NoSQL database to store user data, projects, votes, and event metadata. |
 | Real-time | **WebSockets / Socket.IO** | Enables live updates for leaderboards, chat, and notifications. |
-| Hosting | **(Optional: Heroku / Vercel / AWS)** | Can be hosted online for global access. |
 
 ---
 
