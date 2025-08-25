@@ -1,47 +1,43 @@
-# 🎯 Virtual Hackathon / Game Jam Platform
+# Virtual Hackathon / Game Jam Platform
 
-A full-stack **MERN-based Virtual Hackathon and Game Jam Platform** where users can join timed events, form teams, submit projects, vote, and collaborate in real-time. The platform leverages **WebSockets** for live updates and provides an interactive experience for participants, organizers, and judges.
+[![Watch Demo](https://img.youtube.com/vi/YOUTUBE_VIDEO_ID/0.jpg)](https://www.youtube.com/watch?v=YOUTUBE_VIDEO_ID)
 
----
+## Overview
 
-## 🚀 Features
+The **Virtual Hackathon / Game Jam Platform** is a web-based application that allows users to participate in timed coding events or game jams, submit their projects, vote on submissions, and interact with other participants in real-time.
 
-- 👤 **User Authentication**: Sign up / login with JWT and secure password hashing (bcrypt).  
-- 🏆 **Event Management**: Organizers can create hackathons, game jams, or design sprints.  
-- 👥 **Team Collaboration**: Real-time chat rooms to communicate and collaborate within teams.  
-- 📤 **Project Submission**: Submit projects with metadata and track submissions.  
-- ⭐ **Voting & Leaderboards**: Real-time voting and dynamically updating leaderboards for participants and judges.  
-- 💬 **Interactive Chat Rooms**: WebSocket-powered live chat for participants.  
-- 🔐 **Secure Authentication**: JWT-based sessions, password hashing, and role-based access.  
+It is designed to bring hackathon experiences online, providing collaboration, competition, and engagement features for developers and creators worldwide.
 
 ---
 
-## 🛠 Tech Stack
+## Features
 
-**Frontend:**  
-- React.js (UI Components)  
-- Vite (Dev Server & Bundler)  
-- Tailwind CSS (Styling & Responsive Design)  
-
-**Backend:**  
-- Node.js (Runtime)  
-- Express.js (REST APIs & WebSocket server)  
-- Socket.io (Real-time communication)  
-
-**Database:**  
-- MongoDB (User, Event, Project, and Chat storage)  
-
-**Authentication & Security:**  
-- JWT (JSON Web Tokens)  
-- bcrypt.js (Password hashing)  
-
-**Dev & Deployment Tools:**  
-- Docker (Containerization)  
-- Git & GitHub (Version control)  
-- Vercel / Netlify (Frontend deployment)  
-- Render / Heroku (Backend deployment)  
+- **Real-time Leaderboard**: Tracks participants’ points and ranks dynamically as votes are submitted.
+- **Chat and Collaboration Rooms**: Participants can communicate, discuss ideas, and form teams during the event.
+- **Automated Judging**: Projects are automatically evaluated based on submission metadata (e.g., time, completeness, and criteria).
+- **User Authentication**: Secure login/signup system for participants.
+- **Event Management**: Admins can create events with start/end times, rules, and submission criteria.
+- **Project Submission**: Users can submit their projects, upload files, and provide descriptions.
+- **Voting System**: Participants and/or judges can vote for submissions.
+- **Notifications**: Users receive updates about event progress and leaderboard changes in real-time.
 
 ---
 
-## 📂 Project Structure
+## Tech Stack
 
+| Layer | Technology | Description |
+|-------|-----------|-------------|
+| Frontend | **React.js** | Dynamic user interface, responsive design, real-time updates using WebSockets. |
+| Backend | **Node.js + Express.js** | REST API for handling authentication, project submissions, voting, and event management. |
+| Database | **MongoDB** | NoSQL database to store user data, projects, votes, and event metadata. |
+| Real-time | **WebSockets / Socket.IO** | Enables live updates for leaderboards, chat, and notifications. |
+| Hosting | **(Optional: Heroku / Vercel / AWS)** | Can be hosted online for global access. |
+
+---
+
+## Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/yourusername/virtual-hackathon-platform.git
+   cd virtual-hackathon-platform
